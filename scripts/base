@@ -118,5 +118,6 @@ load_rvm_scripts()
   done
 
   unset rvm_base_except
+  __rvm_setup
 }
 load_rvm_scripts

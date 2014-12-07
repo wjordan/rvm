@@ -165,7 +165,6 @@ then
       RVM will likely not work as expected.\n"
     else
       __rvm_ensure_is_a_function
-      __rvm_setup
 
       export rvm_version
       rvm_version="$(\command \cat "$rvm_path/VERSION") ($(\command \cat "$rvm_path/RELEASE" 2>/dev/null))"
