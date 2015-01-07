@@ -13,7 +13,7 @@ It manages Ruby application environments and enables switching between them.
 
 == Installation
 
-  curl -L https://get.rvm.io | bash -s stable --autolibs=enabled [--ruby] [--rails] [--trace]
+  gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 && \curl -sSL https://get.rvm.io | bash -s stable curl -L https://get.rvm.io | bash -s stable --autolibs=enabled [--ruby] [--rails] [--trace]
 
 stable     :: Install stable RVM, good for servers.
 --ruby     :: Additionally install latest ruby version (MRI).
